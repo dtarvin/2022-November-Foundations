@@ -1,0 +1,32 @@
+html {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: x-large;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.25em;
+    font-family: 'Josefin Slab', serif;
+    font-size: larger;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+#home {
+    background-image: url("../images/tf-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
